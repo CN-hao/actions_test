@@ -37,5 +37,6 @@ jobs:
       # 运行
       - name: Run
         run: ./actions_test
-      - name: Deployment
-        uses: CN-hao/actions_test/.github/workflows/dependent.yml@main
+    #部署
+    deployment:
+      uses: CN-hao/actions_test/.github/workflows/dependent.yml@main
