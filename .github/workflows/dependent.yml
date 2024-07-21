@@ -2,7 +2,7 @@ name: Test
 
 on:
   workflow_call:
-
+    workflows: ["Build"]
 jobs:
   test:
     runs-on: ubuntu-latest
