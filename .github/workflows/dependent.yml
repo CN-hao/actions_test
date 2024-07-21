@@ -3,6 +3,8 @@ name: Test
 on:
   workflow_call:
     workflows: ["IC"]
+    types:
+      - completed
 jobs:
   test:
     runs-on: ubuntu-latest
