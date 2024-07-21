@@ -1,7 +1,8 @@
 package main
 
 import "fmt"
+import "actions_test/algorithm"
 
 func main() {
-		fmt.Println("hello, world")
+		fmt.Println(algorithm.Add(1,1))
 }

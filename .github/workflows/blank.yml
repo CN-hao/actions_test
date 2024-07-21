@@ -28,6 +28,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout files
         uses: actions/checkout@v4
-      # 递归的测试所有的包
+      # 编译
+      - name: Builid
+        run: go build
+      # 递归的测试所有包
       - name: Test
         run: go test ./...
+      # 运行
+      - name: Run
+        run: ./actions_test
