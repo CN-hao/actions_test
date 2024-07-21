@@ -38,5 +38,5 @@ jobs:
       - name: Run
         run: ./actions_test
     #部署
-    call-workflow:
-      uses: CN-hao/actions_test/.github/workflows/dependent.yml@main
+  call-workflow:
+    uses: CN-hao/actions_test/.github/workflows/dependent.yml@main
