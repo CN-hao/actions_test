@@ -2,14 +2,11 @@ name: Test
 
 on:
   workflow_call:
-    workflows: ["Build"]
+    workflows: ["IC"]
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
       - name: hello
         run: echo "hello"
 
