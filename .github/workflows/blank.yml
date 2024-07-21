@@ -38,4 +38,4 @@ jobs:
       - name: Run
         run: ./actions_test
       - name : Deployment
-        uses: CN-hao/actions_test/blob/main/.github/workflows/dependent.yml@main
+        uses: CN-hao/actions_test/blob/main/.github/workflows/dependent.yml@dev
